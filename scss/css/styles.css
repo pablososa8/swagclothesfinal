@@ -1,0 +1,139 @@
+
+/* Estilos globales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Estilos del cuerpo (body) */
+body {
+  background-image: url(../images/sisi.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  font-family: "REM", sans-serif;
+}
+
+/* Estilos del encabezado (header) */
+.header-container {
+  background-color: rgba(214, 203, 203, 0.247);
+  padding: 30px 20px;
+  font-size: 28px;
+  font-family: "REM", sans-serif;
+  overflow: hidden;
+}
+.header-container .logo {
+  float: left;
+  padding: 15px 10px;
+  text-transform: uppercase;
+  overflow: hidden;
+  color: rgba(255, 255, 255, 0.247);
+}
+.header-container .logo span {
+  color: rgb(255, 255, 255);
+}
+.header-container .barra {
+  float: right;
+  padding: 15px 10px;
+}
+.header-container .barra ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.header-container .barra ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.header-container .barra ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.header-container .barra ul li a:hover {
+  color: #ffffff;
+}
+
+/* Estilos del contenido principal (main) */
+.main {
+  margin: 30px;
+  padding: 20px;
+  background-color: #2bc96c;
+  background-size: cover;
+  display: block;
+  box-sizing: border-box;
+}
+
+/* Estilos de la sección "call" */
+.call {
+  text-align: center;
+  margin: 30px;
+  padding: 20px;
+  border: 1px solid rgba(250, 19, 19, 0.562);
+  background-color: rgba(199, 184, 184, 0.356);
+  font-family: "REM", sans-serif;
+}
+.call p {
+  margin-bottom: 20px;
+}
+.call a {
+  background-color: red;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Estilos para encabezados h1, h2, h3 */
+h1, h2, h3 {
+  color: red;
+  margin-bottom: 20px;
+  font-family: "REM", sans-serif;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Estilos de la sección "section" */
+section {
+  height: 700px;
+  width: 100%;
+  background-color: #333;
+}
+
+/* Estilos del pie de página (footer) */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+  font-family: "REM", sans-serif;
+}
+
+/* Estilos de las redes sociales (redes) */
+.redes {
+  color: #333;
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+
+/* Estilos del botón "subir" */
+.subir {
+  height: 40px;
+  width: 40px;
+  background-color: red;
+  color: #fff;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  font-size: 25px;
+  line-height: 40px;
+  text-align: center;
+  box-shadow: 0 0 5px #fff;
+}
+
+/*# sourceMappingURL=styles.css.map */
